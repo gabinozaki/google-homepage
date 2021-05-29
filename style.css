@@ -1,0 +1,111 @@
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: rgba(234,234,236,1);
+    padding: 10px;
+    width: 100%;
+    color: gray;
+}
+
+.right {
+    float: right;
+}
+
+h5{
+    display: inline;
+    font-size: 10px;
+    font-weight: normal;
+    padding: 5px;
+}
+
+h1{
+    text-align: center;
+    font-family: Futura;
+    font-size: 65px;
+    display: inline;
+    font-weight: lighter;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+main{
+    text-align: center;
+    position: relative;
+    top: 50px;
+}
+
+p{
+    font-size: 12px;
+    margin: 30px 0px 0px 0px;
+}
+
+a{
+    text-decoration: none;
+    color: gray;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+button{
+    background: rgba(248,248,255,1);
+    border-radius: 5px;
+    border: none;
+    border: solid 1px transparent;
+    padding: 10px;
+    cursor: pointer;
+    margin: 0px 5px 0px 5px;
+}
+
+button:hover{
+    border: 1px solid lightgray;
+}
+
+input:hover{
+    box-shadow: 5px;
+}
+
+#language{
+    color: darkblue;
+}
+
+.wrapper{
+    position: relative;
+    display: flex;
+    min-width: 100px;
+}
+
+.search{
+    border: 1px solid lightgray;
+    box-shadow: 0px 1px 1px 1px rgba(0,0,0,0), 0px -1px 1px 1px rgba(0,0,0,0);
+    border-radius: 15px;
+    height: 20px;
+    width: 60%;
+    padding: 2px 23px 2px 23px;
+    margin: 20px 60px 20px 60px;
+    outline: none;
+}
+
+.search-icon{
+    position: absolute;
+    width: 10px;
+    left: 67px;
+    top: 28px;
+}
+
+.clear-icon{
+    position: absolute;
+    width: 10px;
+    left: 364px;
+    top: 28px;
+    cursor: pointer;
+}
+
+.search:hover{
+    border: 1px solid white;
+    box-shadow: 0px 0.8px 0.8px 0.8px rgba(0,0,0,0.1),0px -0.8px 0.8px 0.8px rgba(0,0,0,0.1), 0px 1.3px 1.3px 1.3px rgba(0,0,0,0.07),0px -1.3px 1.3px 1.3px rgba(0,0,0,0.07);
+}
