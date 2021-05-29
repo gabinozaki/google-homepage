@@ -1,0 +1,1 @@
+The goal for this project is to recreate Google's homepage using basic HTML and CSS principles. 
