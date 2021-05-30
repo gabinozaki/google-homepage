@@ -1,7 +1,3 @@
-header{
-    color: black;
-}
-
 footer {
     position: absolute;
     bottom: 0;
@@ -18,15 +14,15 @@ footer {
 
 h5{
     display: inline;
-    font-size: 13px;
+    font-size: 14px;
     font-weight: normal;
-    padding: 10px;
+    padding: 9px;
 }
 
 h1{
     text-align: center;
     font-family: Futura;
-    font-size: 85px;
+    font-size: 89px;
     display: inline;
     font-weight: lighter;
 }
@@ -38,7 +34,12 @@ body{
 main{
     text-align: center;
     position: relative;
-    top: 50px;
+    top: 107px;
+}
+
+main h1{
+    letter-spacing: -10px;
+    font-weight: lighter;
 }
 
 p{
@@ -49,6 +50,13 @@ p{
 a{
     text-decoration: none;
     color: gray;
+}
+
+.above a {
+    color: rgb(12, 11, 11);
+    position: relative;
+    top: 11px;
+    left: 6px;
 }
 
 a:hover{
