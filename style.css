@@ -31,6 +31,13 @@ h6{
     border: 4px solid transparent;
 }
 
+.dots{
+    width: 36px;
+    height: 36px;
+    margin: 0px 3px;
+    cursor: pointer;
+}
+
 .profile:hover{
     border: 4px solid rgb(230, 229, 229);
 }
@@ -47,6 +54,7 @@ h1{
     font-size: 89px;
     display: inline;
     font-weight: lighter;
+    
 }
 
 body{
@@ -57,6 +65,13 @@ main{
     text-align: center;
     position: relative;
     top: 107px;
+     
+}
+
+.logo{
+    position: relative;
+    left: 100px;
+    
 }
 
 main h1{
@@ -138,14 +153,6 @@ input:hover{
     left: 45px;
     top: 6px;
 }
-
-/*.clear-icon{
-    position: absolute;
-    width: 10px;
-    left: 364px;
-    top: 28px;
-    cursor: pointer;
-}*/
 
 .search:hover{
     border: 1px solid white;
