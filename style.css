@@ -111,10 +111,10 @@ input:hover{
 }
 
 .search-icon{
-    position: fixed;
+    position: relative;
     width: 18px;
-    left: 235px;
-    top: 290px;
+    left: 45px;
+    top: 6px;
 }
 
 /*.clear-icon{
